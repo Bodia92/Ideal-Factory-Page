@@ -35,7 +35,7 @@
           <div class="main_section__wrapper">
             <div class="main_section__content"><a class="main_section__logo" href="#"><img class="main_section__logo_img" src="images/logo.svg" alt="logo"></a>
               <h1 class="main_section__title">Where imagination & creativity come to life</h1>
-              <button class="main_section__btn" type="button">Scroll</button>
+              <button class="main_section__btn" type="button" arial-lebel="scroll bottom">Scroll</button>
             </div>
             <div class="main_section__image_wrap">
               <picture class="main_section__pictures">
@@ -82,7 +82,7 @@
                   <div class="slider_fullscreen_slide__image_wrap imageAnim">
                     <picture class="slider_fullscreen_slide__picture">
                       <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image1.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image1.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image" src="images/slider-fullscreen/image1.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image1.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image swiper-lazy" src="images/slider-fullscreen/image1.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                 </div>
@@ -96,7 +96,7 @@
                   <div class="slider_fullscreen_slide__image_wrap imageAnim">
                     <picture class="slider_fullscreen_slide__picture">
                       <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image2.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image2.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image" src="images/slider-fullscreen/image2.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image2.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image swiper-lazy" src="images/slider-fullscreen/image2.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                 </div>
@@ -110,7 +110,7 @@
                   <div class="slider_fullscreen_slide__image_wrap imageAnim">
                     <picture class="slider_fullscreen_slide__picture">
                       <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image3.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image3.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image" src="images/slider-fullscreen/image3.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image3.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image swiper-lazy" src="images/slider-fullscreen/image3.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                 </div>
@@ -124,7 +124,7 @@
                   <div class="slider_fullscreen_slide__image_wrap imageAnim">
                     <picture class="slider_fullscreen_slide__picture">
                       <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image4.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image4.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image" src="images/slider-fullscreen/image4.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/slider-fullscreen/image4.jpg.webp" type="image/webp"><img class="slider_fullscreen_slide__image swiper-lazy" src="images/slider-fullscreen/image4.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                 </div>
@@ -174,23 +174,53 @@
             </div>
           </div>
         </section>
-<div class="section scrollbar_slider_section">
-  <div class="section_in scrollbar_section_in">
-    <div class="scrollbar_slider_section__swiper">
-      <div class="scrollbar_slider_section__wrapper swiper-wrapper">
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider1.jpg" alt="image scrollbar 1"></div>
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider2.jpg" alt="image scrollbar 2"></div>
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider3.jpg" alt="image scrollbar 3"></div>
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider1.jpg" alt="image scrollbar 4"></div>
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider2.jpg" alt="image scrollbar 5"></div>
-        <div class="scrollbar_slider_section__slide swiper-slide"><img class="scrollbar_slider_section__image imageAnim" src="images/slider-image/slider3.jpg" alt="image scrollbar 6"></div>
-      </div>
-      <div class="scrollbar_slider_section__scrollbar">
-        <div class="scrollbar_slider_section__scrollbar_drag"></div>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="section scrollbar_slider_section">
+          <div class="section_in scrollbar_section_in">
+            <div class="scrollbar_slider_section__swiper swiper">
+              <div class="scrollbar_slider_section__wrapper swiper-wrapper">
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider1.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider1.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider1.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider2.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider2.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider2.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider3.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider3.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider3.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider1.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider1.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider1.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider2.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider2.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider2.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+                <div class="scrollbar_slider_section__slide swiper-slide">
+                  <picture class="scrollbar_slider_section__image">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider3.jpg" type="image/jpeg">
+                    <source media="(max-width: 767px)" srcset="images/slider-image/slider3.jpg.webp" type="image/webp"><img class="scrollbar_slider_section__image_in swiper-lazy" src="images/slider-image/slider3.jpg" alt=" " loading="eager">
+                  </picture>
+                </div>
+              </div>
+              <div class="scrollbar_slider_section__scrollbar">
+                <div class="scrollbar_slider_section__scrollbar_drag"></div>
+              </div>
+            </div>
+          </div>
+        </div>
         <section class="section marketplace_section">
           <div class="marketplace_section__wrapper">
             <div class="marketplace_section__content">
@@ -236,7 +266,7 @@
                       <source media="(min-width: 768px)" srcset="images/section-image/item5.jpg" type="image/jpeg">
                       <source media="(min-width: 768px)" srcset="images/section-image/item5.jpg.webp" type="image/webp">
                       <source media="(max-width: 767px)" srcset="images/section-image/item5_mob.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/section-image/item5_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image" src="images/section-image/item5.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/section-image/item5_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image swiper-lazy" src="images/section-image/item5.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                   <div class="slider_section_slide__content_right textAnim">
@@ -283,7 +313,7 @@
                       <source media="(min-width: 768px)" srcset="images/section-image/item4.jpg" type="image/jpeg">
                       <source media="(min-width: 768px)" srcset="images/section-image/item4.jpg.webp" type="image/webp">
                       <source media="(max-width: 767px)" srcset="images/section-image/item4_mob.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/section-image/item4_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image" src="images/section-image/item4.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/section-image/item4_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image swiper-lazy" src="images/section-image/item4.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                   <div class="slider_section_slide__content_right textAnim">
@@ -330,7 +360,7 @@
                       <source media="(min-width: 768px)" srcset="images/section-image/item3.jpg" type="image/jpeg">
                       <source media="(min-width: 768px)" srcset="images/section-image/item3.jpg.webp" type="image/webp">
                       <source media="(max-width: 767px)" srcset="images/section-image/item3_mob.jpg" type="image/jpeg">
-                      <source media="(max-width: 767px)" srcset="images/section-image/item3_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image" src="images/section-image/item3.jpg" alt=" " loading="eager">
+                      <source media="(max-width: 767px)" srcset="images/section-image/item3_mob.jpg.webp" type="image/webp"><img class="slider_section_slide__image swiper-lazy" src="images/section-image/item3.jpg" alt=" " loading="eager">
                     </picture>
                   </div>
                   <div class="slider_section_slide__content_right textAnim">
